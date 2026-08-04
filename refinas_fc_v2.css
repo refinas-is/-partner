@@ -1622,29 +1622,44 @@ h1,h2,h3{
 }
 .representative-photo-placeholder{
   min-height:560px;
-  background:#D9DEE3;
+  background:linear-gradient(180deg,#DDE2E7 0%,#D1D7DE 100%);
+  border:1px solid #C5CDD6;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
   text-align:center;
   color:#7D8791;
+  position:relative;
+  overflow:hidden;
+}
+.representative-photo-placeholder::before{
+  content:"";
+  position:absolute;
+  inset:18px;
+  border:2px dashed #AEB7C0;
+}
+.representative-photo-placeholder span,
+.representative-photo-placeholder b,
+.representative-photo-placeholder small{
+  position:relative;
+  z-index:1;
 }
 .representative-photo-placeholder span{
   font-size:11px;
   font-weight:900;
   letter-spacing:.24em;
-  color:#9AA3AC;
+  color:#7F8994;
   margin-bottom:12px;
 }
 .representative-photo-placeholder b{
-  font-size:25px;
-  color:#65707A;
-  margin-bottom:8px;
+  font-size:28px;
+  color:#4C5864;
+  margin-bottom:10px;
 }
 .representative-photo-placeholder small{
-  font-size:13px;
-  color:#89939D;
+  font-size:14px;
+  color:#6F7A85;
 }
 .representative-message-label{
   margin:0 0 18px;
