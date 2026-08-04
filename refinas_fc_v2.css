@@ -1611,3 +1611,98 @@ h1,h2,h3{
   .brand-logo{width:min(54vw,240px)}
   .brand-logo-footer{width:min(52vw,220px)}
 }
+
+
+/* Representative message section */
+.representative-message-grid{
+  display:grid;
+  grid-template-columns:minmax(360px,.82fr) minmax(0,1.18fr);
+  gap:86px;
+  align-items:center;
+}
+.representative-photo-placeholder{
+  min-height:560px;
+  background:#D9DEE3;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#7D8791;
+}
+.representative-photo-placeholder span{
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:.24em;
+  color:#9AA3AC;
+  margin-bottom:12px;
+}
+.representative-photo-placeholder b{
+  font-size:25px;
+  color:#65707A;
+  margin-bottom:8px;
+}
+.representative-photo-placeholder small{
+  font-size:13px;
+  color:#89939D;
+}
+.representative-message-label{
+  margin:0 0 18px;
+  color:var(--red);
+  font-size:11px;
+  line-height:1;
+  font-weight:900;
+  letter-spacing:.22em;
+}
+.representative-message-copy h2{
+  margin:0 0 36px;
+  color:var(--ink);
+  font-size:clamp(44px,4vw,58px);
+  line-height:1.2;
+}
+.representative-message-body{
+  display:grid;
+  gap:22px;
+}
+.representative-message-body p{
+  margin:0;
+  color:#4F5A65;
+  font-size:15px;
+  line-height:2.05;
+}
+.representative-message-body p:first-child{
+  color:var(--ink);
+  font-size:18px;
+  line-height:1.9;
+  font-weight:800;
+}
+@media (max-width:1000px){
+  .representative-message-grid{gap:54px}
+  .representative-photo-placeholder{min-height:500px}
+}
+@media (max-width:820px){
+  .representative-message-grid{
+    grid-template-columns:1fr;
+    gap:38px;
+  }
+  .representative-photo-placeholder{
+    min-height:420px;
+  }
+  .representative-message-copy h2{
+    font-size:40px;
+    margin-bottom:28px;
+  }
+  .representative-message-body{gap:19px}
+  .representative-message-body p{
+    font-size:14px;
+    line-height:1.95;
+  }
+  .representative-message-body p:first-child{
+    font-size:17px;
+    line-height:1.85;
+  }
+}
+@media (max-width:560px){
+  .representative-photo-placeholder{min-height:350px}
+  .representative-message-copy h2{font-size:34px}
+}
