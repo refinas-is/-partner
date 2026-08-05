@@ -1,0 +1,13 @@
+{
+  "baseline": "hero-change-before / button-nowrap approved state",
+  "html_outside_new_section_unchanged": true,
+  "css_outside_new_section_unchanged": true,
+  "javascript_unchanged": true,
+  "inserted_between": "fit and flow",
+  "existing_section_text_modified": false,
+  "hashes": {
+    "html": "4822f31029881d86a61c8899a8f5dfe473025da4554ff9abaf2bb3a0d1d2e0b2",
+    "css": "036b3070367e70a1aaa676136d82d60ed40bbb1dc507069e57884e50c0620d35",
+    "js": "297b15153787fe4d5b1bacb9687063939ae22efc010903b68680966e14fcf8ff"
+  }
+}
