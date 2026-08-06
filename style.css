@@ -2080,7 +2080,7 @@ h1,h2,h3{
 
 /* HERO_BADGES_THREE_CSS_START */
 .hero-photo-badges.hero-photo-badges-three{
-  right:100px;
+  right:14px;
   bottom:30px;
   gap:13px;
 }
@@ -2120,7 +2120,7 @@ h1,h2,h3{
   margin-left:1px;
 }
 @media (max-width:1200px){
-  .hero-photo-badges.hero-photo-badges-three{right:98px;bottom:25px;gap:10px}
+  .hero-photo-badges.hero-photo-badges-three{right:12px;bottom:25px;gap:10px}
   .hero-photo-badges-three .hero-photo-badge{width:126px;height:126px;flex-basis:126px;padding:10px}
   .hero-photo-badge-stock .hero-badge-stock-main{font-size:25px}
   .hero-photo-badge-stock .hero-badge-stock-sub{font-size:17px}
@@ -2129,7 +2129,7 @@ h1,h2,h3{
   .hero-photo-badge-sales b{font-size:35px;margin:5px 0}
 }
 @media (max-width:820px){
-  .hero-photo-badges.hero-photo-badges-three{right:88px;bottom:12px;gap:7px}
+  .hero-photo-badges.hero-photo-badges-three{right:4px;bottom:12px;gap:7px}
   .hero-photo-badges-three .hero-photo-badge{width:96px;height:96px;flex-basis:96px;border-width:2.5px;padding:7px}
   .hero-photo-badge-no1 span{font-size:14px}
   .hero-photo-badge-no1 b{font-size:25px}
@@ -2140,7 +2140,7 @@ h1,h2,h3{
   .hero-photo-badge-sales b{font-size:27px;margin:4px 0 3px}
 }
 @media (max-width:480px){
-  .hero-photo-badges.hero-photo-badges-three{right:84px;bottom:9px;gap:5px}
+  .hero-photo-badges.hero-photo-badges-three{right:2px;bottom:9px;gap:5px}
   .hero-photo-badges-three .hero-photo-badge{width:82px;height:82px;flex-basis:82px;border-width:2px;padding:5px}
   .hero-photo-badge-no1 span{font-size:12px}
   .hero-photo-badge-no1 b{font-size:22px}
@@ -2309,3 +2309,152 @@ h1,h2,h3{
 .hero-photo-badges.hero-photo-badges-three{
   transform:translateX(-20px);
 }
+
+/* MOBILE_HERO_SECTION_ONLY_START */
+.hero-mobile-fv{display:none}
+@media (max-width:820px){
+  .hero{
+    min-height:auto;
+    padding-top:100px;
+    padding-bottom:52px;
+    background:linear-gradient(135deg,#fff 0%,#faf8f8 66%,#f8eef0 100%);
+  }
+  .hero:before{
+    left:-130px;
+    bottom:-195px;
+    width:460px;
+    height:460px;
+    border-width:72px;
+    opacity:.38;
+  }
+  .hero-deco-a{
+    width:124px;
+    height:124px;
+    top:12px;
+    right:-18px;
+    background:rgba(216,33,44,.10);
+  }
+  .hero-deco-b{display:none}
+  .hero-inner{display:none}
+  .hero-mobile-fv{
+    display:block;
+    width:calc(100% - 28px);
+    margin:0 auto;
+    position:relative;
+    min-height:980px;
+    z-index:1;
+  }
+  .hero-mobile-copy{
+    position:relative;
+    z-index:2;
+    width:56%;
+  }
+  .hero-mobile-copy h1{
+    margin:0 0 18px;
+    line-height:1.06;
+  }
+  .hero-mobile-copy h1 .hero-pretitle{font-size:28px;margin-bottom:10px}
+  .hero-mobile-copy h1 .hero-main-line{font-size:34px;line-height:1.22;white-space:normal}
+  .hero-mobile-copy h1 .hero-main-line .nowrap{white-space:nowrap}
+  .hero-mobile-copy h1 .hero-recruit{font-size:36px;line-height:1.16;margin-top:8px}
+  .hero-mobile-subcopy{margin:0;width:58%}
+  .hero-mobile-subcopy .hero-subcopy-title{margin:0 0 12px;font-size:18px;line-height:1.45;letter-spacing:.02em}
+  .hero-mobile-subcopy .hero-lead{font-size:12px;line-height:1.9;color:#4B5562}
+  .hero-mobile-subcopy .hero-lead br{display:none}
+  .hero-mobile-visual{
+    position:absolute;
+    right:-12px;
+    top:70px;
+    width:52%;
+    height:520px;
+    z-index:1;
+  }
+  .hero-mobile-visual img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:0% 50%;
+    clip-path:ellipse(77% 53% at 100% 50%);
+    display:block;
+  }
+  .hero-mobile-badges{
+    list-style:none;
+    margin:268px auto 18px;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    position:relative;
+    z-index:3;
+  }
+  .hero-mobile-badge{
+    width:94px;
+    height:94px;
+    flex:0 0 94px;
+    border:2.5px solid var(--red);
+    border-radius:50%;
+    background:#fff;
+    box-shadow:0 6px 18px rgba(15,39,58,.10),0 0 0 3px rgba(255,255,255,.72);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:var(--red);
+    line-height:1.04;
+    padding:7px;
+    box-sizing:border-box;
+  }
+  .hero-mobile-badge span,.hero-mobile-badge b{display:block;margin:0;color:var(--red);font-weight:900}
+  .hero-mobile-badge-no1 span{font-size:14px}
+  .hero-mobile-badge-no1 b{font-size:24px;letter-spacing:-.04em}
+  .hero-mobile-badge-stock .hero-badge-stock-main{font-size:18px;line-height:1}
+  .hero-mobile-badge-stock .hero-badge-stock-sub{font-size:12px;line-height:1.05;margin-top:2px}
+  .hero-mobile-badge-stock b{font-size:13px;margin-top:2px}
+  .hero-mobile-badge-sales span{font-size:12px}
+  .hero-mobile-badge-sales b{font-size:25px;line-height:.96;letter-spacing:-.065em;margin:2px 0}
+  .hero-mobile-badge-sales b small{font-size:.42em;margin-left:1px}
+  .hero-mobile-actions{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    position:relative;
+    z-index:3;
+  }
+  .hero-mobile-actions .btn{
+    width:100%;
+    min-height:70px;
+    padding:8px 8px 8px 20px;
+    gap:12px;
+    font-size:13px;
+  }
+  .hero-mobile-actions .btn span{white-space:nowrap;font-size:12px}
+  .hero-mobile-actions .btn i{width:52px;height:52px;flex:0 0 52px;font-size:24px}
+}
+@media (max-width:480px){
+  .hero{padding-top:96px;padding-bottom:48px}
+  .hero-mobile-fv{width:calc(100% - 22px);min-height:930px}
+  .hero-mobile-copy{width:58%}
+  .hero-mobile-copy h1 .hero-pretitle{font-size:26px}
+  .hero-mobile-copy h1 .hero-main-line{font-size:32px}
+  .hero-mobile-copy h1 .hero-recruit{font-size:34px}
+  .hero-mobile-subcopy{width:60%}
+  .hero-mobile-subcopy .hero-subcopy-title{font-size:17px}
+  .hero-mobile-subcopy .hero-lead{font-size:11px;line-height:1.85}
+  .hero-mobile-visual{top:76px;right:-14px;width:53%;height:486px}
+  .hero-mobile-visual img{object-position:0% 50%;clip-path:ellipse(79% 54% at 100% 50%)}
+  .hero-mobile-badges{margin-top:240px;gap:6px}
+  .hero-mobile-badge{width:84px;height:84px;flex-basis:84px;padding:5px;border-width:2px}
+  .hero-mobile-badge-no1 span{font-size:12px}
+  .hero-mobile-badge-no1 b{font-size:22px}
+  .hero-mobile-badge-stock .hero-badge-stock-main{font-size:16px}
+  .hero-mobile-badge-stock .hero-badge-stock-sub{font-size:10px}
+  .hero-mobile-badge-stock b{font-size:11px}
+  .hero-mobile-badge-sales span{font-size:10px}
+  .hero-mobile-badge-sales b{font-size:22px}
+  .hero-mobile-actions .btn{min-height:66px;padding-left:18px}
+  .hero-mobile-actions .btn span{font-size:11px}
+  .hero-mobile-actions .btn i{width:50px;height:50px;flex-basis:50px}
+}
+/* MOBILE_HERO_SECTION_ONLY_END */
