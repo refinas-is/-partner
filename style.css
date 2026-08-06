@@ -2934,3 +2934,40 @@ h1,h2,h3{
   }
 }
 /* MOBILE_TARGET_FINAL_V13_MOVE_CTA_HIGHER_END */
+
+/* モバイル版の追従CTAだけ変更 */
+@media (max-width: 820px) {
+  .sticky-cta {
+    padding: 4px !important;
+    background: #116AB7 !important;
+    border: 0 !important;
+  }
+
+  .sticky-cta > a {
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 6px 7px 6px 14px !important;
+  }
+
+  /* 元の文言を非表示 */
+  .sticky-cta > a span {
+    font-size: 0 !important;
+    line-height: 1 !important;
+  }
+
+  /* モバイル版だけ新しい文言を表示 */
+  .sticky-cta > a span::before {
+    content: "無料資料請求はコチラ";
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 900;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .sticky-cta > a span::before {
+    font-size: 10.5px;
+    letter-spacing: -0.02em;
+  }
+}
