@@ -2080,7 +2080,7 @@ h1,h2,h3{
 
 /* HERO_BADGES_THREE_CSS_START */
 .hero-photo-badges.hero-photo-badges-three{
-  right:60px;
+  right:100px;
   bottom:30px;
   gap:13px;
 }
@@ -2120,7 +2120,7 @@ h1,h2,h3{
   margin-left:1px;
 }
 @media (max-width:1200px){
-  .hero-photo-badges.hero-photo-badges-three{right:58px;bottom:25px;gap:10px}
+  .hero-photo-badges.hero-photo-badges-three{right:98px;bottom:25px;gap:10px}
   .hero-photo-badges-three .hero-photo-badge{width:126px;height:126px;flex-basis:126px;padding:10px}
   .hero-photo-badge-stock .hero-badge-stock-main{font-size:25px}
   .hero-photo-badge-stock .hero-badge-stock-sub{font-size:17px}
@@ -2129,7 +2129,7 @@ h1,h2,h3{
   .hero-photo-badge-sales b{font-size:35px;margin:5px 0}
 }
 @media (max-width:820px){
-  .hero-photo-badges.hero-photo-badges-three{right:48px;bottom:12px;gap:7px}
+  .hero-photo-badges.hero-photo-badges-three{right:88px;bottom:12px;gap:7px}
   .hero-photo-badges-three .hero-photo-badge{width:96px;height:96px;flex-basis:96px;border-width:2.5px;padding:7px}
   .hero-photo-badge-no1 span{font-size:14px}
   .hero-photo-badge-no1 b{font-size:25px}
@@ -2140,7 +2140,7 @@ h1,h2,h3{
   .hero-photo-badge-sales b{font-size:27px;margin:4px 0 3px}
 }
 @media (max-width:480px){
-  .hero-photo-badges.hero-photo-badges-three{right:44px;bottom:9px;gap:5px}
+  .hero-photo-badges.hero-photo-badges-three{right:84px;bottom:9px;gap:5px}
   .hero-photo-badges-three .hero-photo-badge{width:82px;height:82px;flex-basis:82px;border-width:2px;padding:5px}
   .hero-photo-badge-no1 span{font-size:12px}
   .hero-photo-badge-no1 b{font-size:22px}
